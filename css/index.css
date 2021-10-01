@@ -46,9 +46,16 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+a{
+    text-decoration:none;
+    color:black;
+}
 
 * {
     box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
 }
 
 html, body {
@@ -70,12 +77,32 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* Header style */
+
+header .links {
+    padding:3%;
+    display:flex;
+    justify-content:space-between;
+}
+header .links nav{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding:12px;
+    width:77%;
+}
+
+header .img{
+    display:flex;
+}
+
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top:20px;
     border-bottom: 1px dashed black;
 }
 
