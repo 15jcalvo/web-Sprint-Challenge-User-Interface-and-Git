@@ -46,10 +46,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-a{
-    text-decoration:none;
-    color:black;
-}
 
 * {
     box-sizing: border-box;
@@ -91,6 +87,10 @@ header .links nav{
     padding:12px;
     width:77%;
 }
+header .links nav a{
+    text-decoration:none;
+    color:black;
+}
 
 header .img{
     display:flex;
@@ -102,7 +102,7 @@ header .img{
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    margin-top:20px;
+    margin-top: 20px;
     border-bottom: 1px dashed black;
 }
 
@@ -201,3 +201,58 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about page */
+
+.about{
+    padding:2%;
+    margin-bottom: 3%;
+    border-bottom: 1px solid black;
+}
+
+.strategy-how{
+    text-align:center;
+    padding:.5%;
+    display:flex;
+    justify-content: space-between;
+}
+.strategy-how .strategy{
+    border-bottom: 1px solid black;
+    margin-bottom: 4%;
+}
+.strategy-how .how{
+    border-bottom: 1px solid black;
+    margin-bottom: 4%;
+}
+.strategy-how img{
+    margin-bottom:1.5%;
+    text-align:center;
+}
+.strategy-how p, .strategy-how h2{
+    text-align:left;
+    padding-left: 3%;
+}
+
+.places-collaboration{
+    text-align:center;
+    padding:.5%;
+    display:flex;
+    justify-content: space-between;
+}
+.places-collaboration .places{
+    border-bottom: 1px solid black;
+    margin-bottom: 4%;
+}
+.places-collaboration .collaboration{
+    border-bottom: 1px solid black;
+    margin-bottom: 4%;
+}
+.places-collaboration img{
+    margin-bottom:1.5%;
+    text-align:center;
+}
+.places-collaboration p, .places-collaboration h2{
+    text-align:left;
+    padding-left: 3%;
+}
+
